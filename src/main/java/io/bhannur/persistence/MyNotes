@@ -1,0 +1,16 @@
+When Tester is run, table is created but the data is not saved!
+
+"Transactions"! : ACID properties
+In write operations, auto-commit by default. ( In above scenario, the auto-commit is off)
+So, In programmatic process, we have to wrap the code in between transaction
+
+// Find all : Java persistence Query Language (JPQL)
+
+q: how to manage the interaction between tow or more entities?
+Understand mappings. 4 types: 1-1, 1-m, m-m, m-1.
+
+
+Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.1.v20171221-bd47e8f): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLSyntaxErrorException: Unknown column 'ADDRESS_ID' in 'field list'
+Error Code: 1054
+Q: create views from
